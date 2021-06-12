@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Basic Banking System</title>
+  </head>
+  <link rel="stylesheet" href="customer_details.css">
+
+<body >
+  <div >
+
+<!-- -------------------------------------navbar---------------------------------- -->
+<nav class="navbar navbar-expand-lg " style="background-color: rgb(0,0,0,0.6);">
+  
+  <a class="navbar-brand" href="index.html"><img class="ml-2 mr-3"src="img/logo2.jpg" width="35px" height="35px" />SparksBank</a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+    
+ <span class="fa-stack fa-lg ml-2 mr-2">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-bitcoin fa-stack-1x fa-inverse"></i>
+</span>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" style="color: white"></div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item  mr-md-5 ml-5">
+        <a class="nav-link" href="index.html"><div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">Home</div></a>
+      </li>
+      <li class="nav-item mr-md-5 ml-5">
+        <a class="nav-link" href="details.html"><div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">Customer Details</div></a>
+      </li>
+      <li class="nav-item mr-md-5 ml-5">
+        <a class="nav-link" href="transactions.html"><div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">Make Transactions</div></a>
+      </li>
+      <li class="nav-item mr-md-5 ml-5">
+        <a class="nav-link" href="history.html"><div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">About Us</div></a>
+      </li>
+    
+      </ul>
+  </div>
+</nav>
+<br><br>
+ 
+ <!-- --------------------------------Table--------------------------->
+
+<div id="up" class="displayblock">
+<table id="customers">
+
+<tbody id="tbody1">
+  
+  </tbody>
+  
+</table>
+</div>
+
+<div class="header">
+    <h1 class="main-heading">Our Customers</h1>
+    
+</div>
+</br>
+
+<div class="container">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead>
+                      <tr style="background-color: white;">
+                        <th style="color: black">Sr No</th>
+                        <th style="color: black">Account No</th>
+                        <th style="color: black">User Name</th>
+                        <th style="color: black" class="d-sm-block d-none">Email ID</th>
+                        <th style="color: black">Balance</th>  
+                        <th style="color: black">Mobile No</th>
+                      </tr>      
+                </thead>
+                <tbody>
+                    <tr class="table-light">
+                        <td scope="row">1</td>
+                        <td>1101</td>
+                        <td>Khushi Bhoskar</td>
+                        <td>khushibhoskar04@gmail.com</td>
+                        <td>
+                            <p id="JinendraBankBalance">23600</p>
+                        </td>
+                        <td>9423781029</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">2</td>
+                        <td>1102</td>
+                        <td>Mahesh Wattamwar</td>
+                        <td>maheshwattamwar001@gmail.com</td>
+                        <td>
+                            <p id="MedhaBankBalance">37000</p>
+                        </td>
+                        <td>8276891679</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">3</td>
+                        <td>1103</td>
+                        <td>Somesh Bhoskar</td>
+                        <td>someshbhoskar26@gmail.com</td>
+                        <td>
+                            <p id="RajeshBankBalance">59700</p>
+                        </td>
+                        <td>8424781221</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">4</td>
+                        <td>1104</td>
+                        <td>Vidya Bhoskar</td>
+                        <td>vidyabhoskar@gmail.com</td>
+                        <td>
+                            <p id="YashBankBalance">27000</p>
+                        </td>
+                        <td>9421781134</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">5</td>
+                        <td>1105</td>
+                        <td>Ramdas Bhoskar</td>
+                        <td>ramdashbhoskar10@gmail.com</td>
+                        <td>
+                            <p id="AparnaBankBalance">31600</p>
+                        </td>
+                        <td>9422781899</td>
+                    </tr>
+                    <tr class="table-info">
+                      <td scope="row">6</td>
+                        <td>1106</td>
+                        <td>Jyoti Chinchane</td>
+                        <td>jyotichinchane123@gmail.com</td>
+                        <td>
+                            <p id="AsmitaBankBalance">26700</p>
+                        </td>
+                        <td>8223784554</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">7</td>
+                        <td>1107</td>
+                        <td>Om Bhoskar</td>
+                        <td>ombhoskar07@gmail.com</td>
+                        <td>
+                            <p id="AmanBankBalance">35900</p>
+                        </td>
+                        <td>9425689029</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">8</td>
+                        <td>1108</td>
+                        <td>Sharayu Bhoskar</td>
+                        <td>sherubhoskar04@gmail.com</td>
+                        <td>
+                            <p id="AshishBankBalance">32450</p>
+                        </td>
+                        <td>8898764523</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">9</td>
+                        <td>1108</td>
+                        <td>Shankar Bhoskar</td>
+                        <td>shankarbhoskar75@gmail.com</td>
+                        <td>
+                            <p id="KedarBankBalance">23500</p>
+                        </td>
+                        <td>8998764523</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">10</td>
+                        <td>1109</td>
+                        <td>Omkar Jogi</td>
+                        <td>Omkar@gmail.com</td>
+                        <td>
+                            <p id="OmkarBankBalance">35850</p>
+                        </td>
+                        <td>9498764523</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<!-- ------------------------------------------footer------------------------------------------------>
+
+<footer class="bg-dark text-center text-lg-start mt-5" style="color: white">
+
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    © June'21   Copyright  :  Sparks Bank <br> <br>
+    <a class="text-light" href="https://github.com/bhoskarpooja">Created By - Pooja Bhoskar</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</body>
+
+</html>

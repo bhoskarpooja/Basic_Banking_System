@@ -1,0 +1,87 @@
+
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("img/bank1.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+  .block{
+    min-height:100% ;
+    width: 100%;
+
+  }
+  a{
+   transition: transform 1s;  
+  }
+  a:hover{
+  transform: scale(1.1); 
+  color:white;
+
+  }
+  .floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+  
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.heading{
+ font-size: 5rem ;
+ color: white;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+ font-size: 2.2rem; 
+ color: white;
+ font-family: 'Itim', cursive;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .heading{
+ font-size: 3rem ;
+
+}
+.content{
+font-size: 1rem;
+}
+}
+i{
+transition: transform 1s;   
+}
+i:hover{
+box-shadow: 0px 5px rgb(255,255,255,0.5);
+transform: scale(1.3); 
+  color: white;
+}
+
+.btn:hover{
+box-shadow: 3px 5px rgb(255,255,255,0.5);
+
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn{
+  height: 50px;
+  width: 18vw;
+}
